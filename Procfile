@@ -1,1 +1,1 @@
-worker: python cowboy.py
+app: python cowboy.py
