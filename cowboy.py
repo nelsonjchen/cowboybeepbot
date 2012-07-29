@@ -1,6 +1,9 @@
 import astral
 import praw
 import os
+import datetime
+
+print("WARNING: This script has no error checking. Please make sure files work!")
 
 ucsb = astral.City(('University of California, Santa Barbara Main Campus',
                     'USA', 34.41254, -119.84813, 'US/Pacific'))
@@ -9,16 +12,16 @@ user = os.environ['REDDIT_USER']
 password = os.environ['REDDIT_PASS']
 subreddit = os.environ['REDDIT_SUBREDDIT']
 
-
 if (ucsb.solar_elevation() > 0):
+    print("Day")
     css_filename = 'stylesheets/day.css'
 else:
+    print("Night")
     css_filename = 'stylesheets/day.css'
 
 mkdn_filename = 'markdown/sidebar.mkdn'
 
 print("Uploading %s and %s to %s" % (css_filename, mkdn_filename, subreddit))
-print("WARNING: This script has no error checking. Please make sure files work!")
 
 r = praw.Reddit("UCSB Subreddit Style Bot aka. CowboyBeepBopBot")
 r.login(user, password)
