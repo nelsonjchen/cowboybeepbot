@@ -7,8 +7,10 @@ ucsb = astral.City(('University of California, Santa Barbara Main Campus',
 
 user = os.environ['REDDIT_USER']
 password = os.environ['REDDIT_PASS']
+subreddit = os.environ['REDDIT_SUBREDDIT']
 
 r = praw.Reddit("UCSB Subreddit Style Bot aka. CowboyBeepBopBot")
+r.login(user, password)
 
 if (ucsb.solar_elevation() > 0):
     print("day!")
