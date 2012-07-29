@@ -1,0 +1,400 @@
+/*Twitter Feed Graphic*/
+/* line 2, ../sass/_present.scss */
+a[href="http://twitter.com/reddit_ucsb"]:after {
+  width: 68px;
+  height: 16px;
+  content: "";
+  /* background-image: url(http://thumbs.reddit.com/t5_2shs9_0.png); */
+  background-position: 0px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+/*replace "readers" with gauchos*/
+/* line 13, ../sass/_present.scss */
+div.titlebox span.word {
+  display: none;
+}
+
+/* line 16, ../sass/_present.scss */
+div.titlebox span.number:after {
+  content: " Gauchos";
+}
+
+/*Flair Classes*/
+/* line 20, ../sass/_present.scss */
+.flair-mod {
+  content: "";
+}
+
+/* line 23, ../sass/_present.scss */
+.flair-mod:before {
+  content: "";
+  text-align: right;
+  float: left;
+  width: 16px;
+  height: 16px;
+  /* background: transparent url(http://thumbs.reddit.com/t5_2shs9_2.png) center center no-repeat */
+}
+
+/* line 31, ../sass/_present.scss */
+.flair-tweetposter {
+  border: 0;
+  padding: 0;
+  /* background: transparent url(http://thumbs.reddit.com/t5_2shs9_1.png) center center no-repeat; */
+  height: 16px;
+  width: 16px;
+  text-indent: -9999px;
+}
+
+/* Flair */
+/* line 40, ../sass/_present.scss */
+.linkflair-gold .title {
+  background-color: gold;
+}
+
+/* line 3, ../sass/_base.scss */
+a {
+  color: #336699;
+}
+
+/* line 9, ../sass/_base.scss */
+#sr-header-area {
+  background-color: #2d2d2d;
+}
+
+/* line 13, ../sass/_base.scss */
+#header #sr-header-area a, #sr-more-link, .srdrop > .selected {
+  color: #cccccc !important;
+  background-color: #2d2d2d;
+}
+
+/* line 18, ../sass/_base.scss */
+.srSep {
+  color: gray;
+}
+
+/* line 24, ../sass/_base.scss */
+#RESShortcuts {
+  color: #cccccc;
+}
+
+/* line 28, ../sass/_base.scss */
+#srLeftContainer {
+  max-height: 19px !important;
+  height: 19px !important;
+}
+
+/* line 33, ../sass/_base.scss */
+#RESShortcutsViewport {
+  padding-left: 50px;
+}
+
+/* line 37, ../sass/_base.scss */
+#RESShortcutsEditContainer {
+  position: relative !important;
+  float: left;
+  top: -18px !important;
+  left: -4px;
+  height: 1px !important;
+  width: 0 !important;
+  left: 40px;
+  z-index: 7 !important;
+}
+
+/* line 48, ../sass/_base.scss */
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  background-color: #2d2d2d !important;
+  color: #cccccc !important;
+}
+
+/* line 53, ../sass/_base.scss */
+.res-navTop {
+  top: 0 !important;
+  z-index: 10 !important;
+}
+
+/* line 58, ../sass/_base.scss */
+#userbarToggle {
+  background-color: #002773 !important;
+  border-right-color: #001f5a !important;
+  color: #ffc82e !important;
+  min-height: 27px;
+}
+
+/* line 67, ../sass/_base.scss */
+#header-bottom-right {
+  top: 0;
+  height: 12px;
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding-left: 10px;
+  background-color: #0039a6;
+}
+/* line 74, ../sass/_base.scss */
+#header-bottom-right a, #header-bottom-right b, #header-bottom-right > .separator {
+  color: #ffc82e;
+}
+
+/* line 79, ../sass/_base.scss */
+.width-clip {
+  right: 300px !important;
+}
+
+/* line 85, ../sass/_base.scss */
+#header-bottom-left {
+  background-color: #0057c1;
+  background-repeat: repeat-y;
+  background-position: 100% 0%;
+  padding-right: 300px;
+}
+
+/* line 92, ../sass/_base.scss */
+#header {
+  border-bottom: 0;
+  z-index: 45;
+}
+
+/* line 98, ../sass/_base.scss */
+#header-img {
+  height: 40px;
+  width: 140px;
+}
+
+/* line 104, ../sass/_base.scss */
+.pagename, .pagename a {
+  font-family: "Minion Pro", "Hoefler Text", "Palatino Linotype", "Book Antiqua", Palatino, georgia, garamond, FreeSerif, serif;
+  font-size: 16px;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  color: #ffc82e;
+}
+
+/* line 115, ../sass/_base.scss */
+.tabmenu li a {
+  background-color: #ffc82e;
+  color: #0039a6;
+}
+
+/* line 120, ../sass/_base.scss */
+.tabmenu {
+  z-index: 55;
+}
+
+/* line 131, ../sass/_base.scss */
+.titlebox > .redditname {
+  display: none;
+}
+
+/* line 135, ../sass/_base.scss */
+.side > .spacer:first-child {
+  padding-top: 320px;
+  background-position: 8px 240px;
+  background-color: #b8e2fc;
+  background-image: url(%%storke-middle%%);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+/* line 147, ../sass/_base.scss */
+.titlebox form.toggle, .leavemoderator {
+  background-color: white;
+}
+
+/* line 159, ../sass/_base.scss */
+.side {
+  background-color: transparent;
+  margin: 0px 8px 0px 8px;
+  background-position: 8px 0;
+}
+
+/* line 165, ../sass/_base.scss */
+.titlebox, #moderation_tools, .sidecontentbox {
+  padding: 6px;
+  border: 5px solid #fff8e7;
+  /* @include border-radius(5px); */
+  background-color: white;
+}
+
+/* line 171, ../sass/_base.scss */
+.sidebox.create, .sidebox.submit {
+  display: none;
+}
+
+/* line 193, ../sass/_base.scss */
+.side a[href*="#submitlink"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #0039a6;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  float: left;
+  width: 250px;
+  text-align: center;
+  margin: 5px;
+  /* text-shadow: 2px 2px 3px black; */
+  /* padding: 5px 52px; */
+}
+/* line 188, ../sass/_base.scss */
+.side a[href*="#submitlink"]:hover {
+  color: red;
+}
+
+/* line 198, ../sass/_base.scss */
+.side a[href*="#selfpost"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #0039a6;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  float: left;
+  width: 250px;
+  text-align: center;
+  margin: 5px;
+  /* text-shadow: 2px 2px 3px black; */
+}
+/* line 188, ../sass/_base.scss */
+.side a[href*="#selfpost"]:hover {
+  color: red;
+}
+
+/* line 203, ../sass/_base.scss */
+.side a[href="http://www.youtube.com/watch?v=JPPjS-TCCqk"] {
+  height: 331px;
+  width: 300px;
+  background-color: transparent;
+  position: absolute;
+  z-index: 52;
+  top: 28px;
+  right: 0;
+  background-image: url(%%storke-top%%);
+}
+
+/* line 218, ../sass/_base.scss */
+.md p:first-child {
+  margin: 20px 0;
+}
+
+/* line 222, ../sass/_base.scss */
+.md p:nth-child(2) {
+  margin: 20px 0;
+}
+
+/* line 226, ../sass/_base.scss */
+.titlebox .usertext .md > h1 {
+  background-color: #0057c1;
+  color: white;
+  margin-left: -18px;
+  padding-left: 20px;
+  margin-right: -18px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 238, ../sass/_base.scss */
+.titlebox .usertext .md > h1:after {
+  display: block;
+  content: "";
+  border-color: transparent #00408d transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  z-index: -1;
+  margin-left: -35px;
+  margin-top: -10px;
+}
+
+/* line 252, ../sass/_base.scss */
+.titlebox .usertext .md {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+/* line 259, ../sass/_base.scss */
+.login-form-side {
+  background-color: white;
+}
+
+/* line 265, ../sass/_base.scss */
+body {
+  background-color: #b8e2fc;
+  background-image: url(%%storke-middle%%);
+  background-repeat: repeat-y;
+  background-position: 100% 70px;
+  color: black;
+}
+
+/* line 273, ../sass/_base.scss */
+.content {
+  margin-left: 8px;
+  margin-right: 330px;
+  /* @include border-radius(5px); */
+  background-color: white;
+  border: 5px solid #fff8e7;
+  padding: 5px 15px;
+}
+
+/* line 283, ../sass/_base.scss */
+.link {
+  border-top: 1px solid #e6e6e6;
+  padding: 7px 0;
+}
+/* line 284, ../sass/_base.scss */
+.link:first-child {
+  border-top: 0;
+}
+
+/* line 293, ../sass/_base.scss */
+.thing .title {
+  color: blue;
+}
+/* line 296, ../sass/_base.scss */
+.thing .title:visited, .thing .title.click {
+  color: #551a8b;
+}
+/* line 299, ../sass/_base.scss */
+.thing .title.loggedin {
+  color: blue;
+}
+/* line 301, ../sass/_base.scss */
+.thing .title.loggedin:visited, .thing .title.loggedin.click, .thing .title.loggedin.click:visited {
+  color: #551a8b;
+}
+
+/* line 308, ../sass/_base.scss */
+.tagline a {
+  color: #336699;
+}
+
+/* line 314, ../sass/_base.scss */
+.entry.keyHighlight {
+  outline-width: 0;
+  border-right: 1px solid blue;
+}
+
+/* line 321, ../sass/_base.scss */
+.footer.rounded {
+  background-color: beige;
+  color: black;
+}
