@@ -17,7 +17,7 @@ if (ucsb.solar_elevation() > 0):
     css_filename = 'stylesheets/day.css'
 else:
     print("Night")
-    css_filename = 'stylesheets/day.css'
+    css_filename = 'stylesheets/night.css'
 
 mkdn_filename = 'markdown/sidebar.mkdn'
 
