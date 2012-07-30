@@ -33,5 +33,6 @@ the images must have already been uploaded to the subreddit or else it will
 also silently fail.
 
 There are almost no requirements for the sidebar uploading section as it's hard
-to make invalid markdown. Just keep in mind to make sure the post submit links
-still exist. 
+to make invalid markdown. However, the ordering of elements in the sidebar may
+be integral to the CSS working but this may not always be the case. Just keep
+in mind to make sure the post submit links still exist. 
